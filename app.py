@@ -101,20 +101,12 @@ def before_request():
             "error": "Too Many Requests"
         }), 429
 
-
-
-
-
-
-
 # testing socketio to see how websockets work with flask
 @socketio.on("test")
 def test_message(message):
     print(message)
 
-
 # ---------------- Chat Stuff
-
 
 # dynamically sends chat messages to active users
 @socketio.on("sendChat")
