@@ -3,7 +3,7 @@ A multiplayer version of Wordle
 
 <h1> Technologies Used </h1>
 <ul>
-  <li> App managed with Flask server </li>>
+  <li> App managed with Flask server </li>
   <li> Docker for containerization </li>
   <li> MongoDB for data storage and management </li>
   <li> WebSockets for live multiplayer communication </li>
