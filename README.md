@@ -9,6 +9,12 @@ A multiplayer version of Wordle
   <li> WebSockets for live multiplayer communication </li>
 </ul>
 
+<h1> How to run </h1>
+<ul>
+  <li> Ensure you have Docker installed </li>
+  <li> Run <pre><code>docker compose up --build </code></pre> </li>
+</ul>
+
 <h1> How to Play </h1>
 To play the game, you need to be logged in and have a registered account.
 <br><br>
