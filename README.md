@@ -13,6 +13,7 @@ A multiplayer version of Wordle
 <ul>
   <li> Ensure you have Docker installed </li>
   <li> Run <pre><code>docker compose up --build </code></pre> </li>
+  <li> Navigate to http://localhost:8080/ </li>
 </ul>
 
 <h1> How to Play </h1>
