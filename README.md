@@ -3,17 +3,17 @@ A multiplayer version of Wordle
 
 <h1> Technologies Used </h1>
 <ul>
-  <li> App managed with Flask server </li>
-  <li> Docker for containerization </li>
-  <li> MongoDB for data storage and management </li>
-  <li> WebSockets for live multiplayer communication </li>
+  <li> Flask: Backend server management </li>
+  <li> Docker: Containerization for ease of deployment </li>
+  <li> MongoDB: Data storage and management </li>
+  <li> WebSockets: Real-time multiplayer communication </li>
 </ul>
 
 <h1> How to run </h1>
 <ul>
-  <li> Ensure you have Docker installed </li>
-  <li> Run <pre><code>docker compose up --build </code></pre> </li>
-  <li> Navigate to http://localhost:8080/ </li>
+  <li> Ensure Docker is installed on your machine </li>
+  <li> Run the following command to start the application: <pre><code>docker compose up --build </code></pre> </li>
+  <li> Open your browser and navigate to: http://localhost:8080/ </li>
 </ul>
 
 <h1> How to Play </h1>
@@ -27,8 +27,8 @@ To play the game, you need to be logged in and have a registered account.
 
 For testing purposes, you can see the answer in the console.
 
-<h1> Other Features </h1>
+<h1> Additional Features </h1>
 <ul>
-  <li> Registered users can communicate with others via the chat </li>
-  <li> Registered users have the ability to change their profile picture by clicking their profile </li>
+  <li> In-Game Chat: Registered users can chat with other players during gameplay </li>
+  <li> Profile Customization: Users can update their profile picture by clicking on their profile icon </li>
 </ul>
